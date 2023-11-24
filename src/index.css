@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply font-Poppins;
+}
+body {
+    @apply box-border bg-gray-900 text-gray-100 overflow-x-hidden w-screen;
+}
+
+input{
+    @apply rounded-md p-2 placeholder:text-cyan-600 text-black
+}
+
+.btn-primary {
+    @apply bg-cyan-600  text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:bg-white hover:text-cyan-600;
+}
+.btn-select {
+    @apply bg-teal-600 text-white md:mx-0 mx-auto rounded-full px-6 flex items-center gap-2 hover:bg-white hover:text-cyan-600;
+}
